@@ -8,12 +8,8 @@ I open the first 7 drawers, all are empty. What is the probability there is a le
 ### Solutions
 
 ##### A solution based on Bayes' theorem
----
 [View solution](maths_explanation.jpg)
----
 ##### A solution based on method Monte Carlo
----
 ```console
 mvn install exec:java -Dexec.mainClass=MonteCarloSolution
 ```
----
