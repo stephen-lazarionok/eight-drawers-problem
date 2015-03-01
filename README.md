@@ -11,5 +11,6 @@ I open the first 7 drawers, all are empty. What is the probability there is a le
 [View solution](maths_explanation.jpg)
 ##### A solution based on method Monte Carlo
 ```console
+git clone ...
 mvn install exec:java -Dexec.mainClass=MonteCarloSolution
 ```
