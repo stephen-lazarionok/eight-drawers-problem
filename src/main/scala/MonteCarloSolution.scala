@@ -10,9 +10,9 @@ object MonteCarloSolution extends ProblemDef {
     /**
      * A number of experiments
      */
-    val EXPERIMENTS_COUNT = 10000000
+    val EXPERIMENTS_COUNT = 1000000
 
-    def firstSevenDrawersEmpty(c: Case) = Range(0, 6).contains(c.letterLocation.getOrElse(-1))
+    def firstSevenDrawersEmpty(c: Case) = !Range(0, 7).contains(c.letterLocation.getOrElse(-1))
 
     def main (args: Array[String]) {
         /**
