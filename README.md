@@ -7,8 +7,13 @@ I open the first 7 drawers, all are empty. What is the probability there is a le
 
 ### Solutions
 
-1. A solution based on Bayes' theorem
-
+##### A solution based on Bayes' theorem
+---
 [View solution](maths_explanation.jpg)
-
-2. A solution based on method Monte Carlo
+---
+##### A solution based on method Monte Carlo
+---
+```console
+mvn install exec:java -Dexec.mainClass=MonteCarloSolution
+```
+---
